@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 75px 75px 1fr 1fr;
+}
+
+.dashboard{
+    background-color: #0ea5e9;
+    color: white;
+
+    grid-row: 1 / -1;
+}
+
+.nav-bar,
+.greeting-bar{
+    grid-column: 2 / -1;
+}
+
+.projects{
+    background-color: #bae6fd;
+
+    grid-row: span 2;
+}
+
+.announcements,
+.trendings{
+    background-color: #bae6fd;
+}
+
+.announcements-container,
+.trendings-container{
+    background-color: #e0f2fe;
+}
