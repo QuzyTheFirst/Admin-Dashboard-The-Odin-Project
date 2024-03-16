@@ -16,12 +16,20 @@
 <body>
     <div class="container">
         <div class="dashboard">
-            <div class="logo">
-                <img src="" alt="">
-                Dashboard
+            <div class="logo-container">
+                <img class="logo-image icon" src="./icons/cube.svg" alt="">
+                <span class="logo-text">Dashboard</span>
             </div>
-            <div>
-                <ul class="links">
+            <div class="links-container">
+                <ul class="links-icons">
+                    <li><img class="icon" src="./icons/home.svg" alt=""></li>
+                    <li><img class="icon" src="./icons/profile.svg" alt=""></li>
+                    <li><img class="icon" src="./icons/message.svg" alt=""></li>
+                    <li><img class="icon" src="./icons/clock.svg" alt=""></li>
+                    <li><img class="icon" src="./icons/tasks.svg" alt=""></li>
+                    <li><img class="icon" src="./icons/communities.svg" alt=""></li>
+                </ul>
+                <ul class="links-texts">
                     <li class="home">Home</li>
                     <li class="profile">Profile</li>
                     <li class="messages">Messages</li>
@@ -30,8 +38,13 @@
                     <li class="communities">Communities</li>
                 </ul>
             </div>
-            <div>
-                <ul class="contorls">
+            <div class="controls-container">
+                <ul class="controls-icons">
+                    <li><img class="icon" src="./icons/settings.svg" alt=""></li>
+                    <li><img class="icon" src="./icons/support.svg" alt=""></li>
+                    <li><img class="icon" src="./icons/privacy.svg" alt=""></li>
+                </ul>
+                <ul class="contorls-text">
                     <li class="settings">Settings</li>
                     <li class="support">Support</li>
                     <li class="privacy">Privacy</li>
@@ -39,50 +52,149 @@
             </div>
         </div>
         <div class="nav-bar">
-            <img src="" alt="search-icon">
+            <img src="./icons/search.svg" alt="search-icon">
             <input type="text" name="" id="">
-            <img src="" alt="notification-icon">
-            <img src="" alt="profile-icon">
+            <div></div>
+            <img src="./icons/notification.svg" alt="notification-icon">
+            <img class="profile-icon" src="./icons/boy-icon.png" alt="profile-icon">
+            <div class="username">Morgan Oakley</div>
         </div>
         <div class="greeting-bar">
-            <img src="" alt="profile-icon">
-            <div>Hi there,</div>
-            <div>Morgan Oakley(@morgan)</div>
+            <img class="profile-icon" src="./icons/boy-icon.png" alt="profile-icon">
+            <div class="greeting-text">
+                <sub>Hi there,</sub>
+                <div class="username">Morgan Oakley(@morgan)</div>
+            </div>
             <button>New</button>
             <button>Upload</button>
             <button>Share</button>
         </div>
         <div class="projects">
-            <div>Your projects</div>
+            <div class="section-name">Your projects</div>
             <div class="projects-container">
                 <div class="project">
-                    <div class="project-name">Super Cool Project</div>
-                    <div class="project-description">Lorem Ipsum</div>
+                    <div class="name">Money Maker</div>
+                    <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                    <div class="icons">
+                        <img src="./icons/bookmark.svg" alt="Add-to-bookmarks">
+                        <img src="./icons/watch.svg" alt="Add-to-watch-icon">
+                        <img src="./icons/share.svg" alt="Share-icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="name">Super Cool Project</div>
+                    <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                    <div class="icons">
+                        <img src="./icons/bookmark.svg" alt="Add-to-bookmarks">
+                        <img src="./icons/watch.svg" alt="Add-to-watch-icon">
+                        <img src="./icons/share.svg" alt="Share-icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="name">Less Cool Project</div>
+                    <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                    <div class="icons">
+                        <img src="./icons/bookmark.svg" alt="Add-to-bookmarks">
+                        <img src="./icons/watch.svg" alt="Add-to-watch-icon">
+                        <img src="./icons/share.svg" alt="Share-icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="name">Impossible App</div>
+                    <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                    <div class="icons">
+                        <img src="./icons/bookmark.svg" alt="Add-to-bookmarks">
+                        <img src="./icons/watch.svg" alt="Add-to-watch-icon">
+                        <img src="./icons/share.svg" alt="Share-icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="name">Easy Peasy App</div>
+                    <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                    <div class="icons">
+                        <img src="./icons/bookmark.svg" alt="Add-to-bookmarks">
+                        <img src="./icons/watch.svg" alt="Add-to-watch-icon">
+                        <img src="./icons/share.svg" alt="Share-icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="name">Add Blocker</div>
+                    <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                    <div class="icons">
+                        <img src="./icons/bookmark.svg" alt="Add-to-bookmarks">
+                        <img src="./icons/watch.svg" alt="Add-to-watch-icon">
+                        <img src="./icons/share.svg" alt="Share-icon">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="announcements">
-            <div>Announcements</div>
+            <div class="section-name">Announcements</div>
             <div class="announcements-container">
                 <div class="announcement">
-                    <div class="announcement-name">
+                    <div class="name">
                         Site Maintenence
                     </div>
-                    <div class="announcement-discription">
-                        Lorem Ipsum
+                    <div class="description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </div>
+                </div>
+                <hr>
+                <div class="announcement">
+                    <div class="name">
+                        Community Share Day
+                    </div>
+                    <div class="description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </div>
+                </div>
+                <hr>
+                <div class="announcement">
+                    <div class="name">
+                        Updated Privacy Policy
+                    </div>
+                    <div class="description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </div>
                 </div>
             </div>
         </div>
         <div class="trendings">
-            <div>Trending</div>
+            <div class="section-name">Trending</div>
             <div class="trendings-container">
                 <div class="trending">
-                    <img src="" alt="trending-user-icon">
+                    <img class="trending-icon" src="./icons/dad-icon.png" alt="trending-user-icon">
                     <div class="trending-info">
-                        <div class="trending-id">@tegan</div>
-                        <div class="trending-project-name">
+                        <div class="id">@tegan</div>
+                        <div class="description">
                             World Peace Builder
+                        </div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <img class="trending-icon" src="./icons/boy-icon.png" alt="trending-user-icon">
+                    <div class="trending-info">
+                        <div class="id">@morgan</div>
+                        <div class="description">
+                            Super Cool Project
+                        </div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <img class="trending-icon" src="./icons/another-icon.png" alt="trending-user-icon">
+                    <div class="trending-info">
+                        <div class="id">@kendall</div>
+                        <div class="description">
+                            Life Changing App
+                        </div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <img class="trending-icon" src="./icons/blank-icon.jpg" alt="trending-user-icon">
+                    <div class="trending-info">
+                        <div class="id">@alex</div>
+                        <div class="description">
+                            No Traffic Maker
                         </div>
                     </div>
                 </div>
