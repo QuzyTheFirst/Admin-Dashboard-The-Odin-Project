@@ -122,6 +122,9 @@ input{
     grid-template-columns: 75px 1fr repeat(3, 100px);
     gap: 24px;
     align-items: center;
+
+    position: relative;
+    box-shadow: 0px 5px 5px #a7cee3;
 }
 
 .greeting-bar .profile-icon{
@@ -167,6 +170,9 @@ button{
     border-radius: 5px;
     padding: var(--standard-padding);
     border-left: 5px solid orange;
+
+    position: relative;
+    box-shadow: 3px 3px 5px #a7cee3;
 }
 
 .project .name{
@@ -196,6 +202,9 @@ button{
 
     border-radius: 5px;
     padding: var(--standard-padding);
+
+    position: relative;
+    box-shadow: 3px 3px 5px #a7cee3;
 }
 
 hr{
